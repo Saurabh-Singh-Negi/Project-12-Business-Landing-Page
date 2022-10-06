@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Blaka+Hollow&family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Poppins;
+}
+
+header {
+    background-color: #636C79;
+    height: 650px;
+    padding-top: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 8rem;
+}
+
+nav {
+    color: #fff;
+}
+
+.nav-item {
+    margin-right: 2rem;
+}
+
+.nav-item-btn {
+    margin-left: 5rem;
+    margin-right: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.608);
+    padding: 0.8rem 3rem;
+}
+
+.header-img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin: 3rem;
+}
+
+.header-text {
+    width: 500px;
+    color: #fff;
+}
+
+.header-text > h2 {
+    font-size: 3rem;
+    line-height: 110%;
+}
+
+.header-text > p {
+    color: rgba(255, 255, 255, 0.689);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.email-content {
+    display: flex;
+    background-color: #fff;
+    padding: .5rem;
+}
+
+.email-content input{
+    background-color: transparent;
+    border: none;
+    width: 70%;
+}
+
+.email-content button {
+    width: 30%;
+    background-color: #8BB7A2;
+    border: none;
+    color: rgba(255, 255, 255, 0.689);
+    font-size: 1rem;
+}
+
+/* Stats Section */
+
+.stats-section {
+}
+
+.stats-heading {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.stats-numbers {
+    margin: auto;
+    display: flex;
+    width: 68%;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.stats-video {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    margin: auto;
+}
+
+.stats-sec-video {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    object-fit: cover;
+    width: 1380px;
+    height: 600px;
+    
+    max-width: 90%;
+}
+
+/* Services */
+
+.services {
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+
+.services-heading {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.service-desc {
+    color: rgba(44, 43, 43, 0.696);
+
+}
+
+.service-img > img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.service-btn {
+    background-color: #8BB7A2;
+    padding: 1rem 2rem;
+    border: none;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+/* Team */
+
+.team-text {
+    display: flex;
+    margin: 4rem 4rem 4rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-description {
+    max-width: 600px;
+}
+
+.team-cards {
+    display: flex;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.card > p {
+    color: rgba(44, 43, 43, 0.696);
+}
+
+.card > img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.explore-btn {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: #8BB7A2;
+    padding: 1rem 2rem;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.btn-center {
+    text-align: center;
+    
+}
+
+
+/* footer */
+
+footer {
+    background-color: #000; 
+}
+
+.icons {
+    border-radius: 30px;
+}
+
+.logo-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem 0 4rem;
+    padding: 4rem 0 2rem 0;
+    border-bottom: 2px solid rgba(52, 51, 51, 0.714);
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    padding-bottom: 6rem;
+    margin-top: 4rem;
+    font-size: 1.2rem;
+}
+
+.footer-list li{
+    color: rgba(172, 167, 167, 0.825);
+    list-style: none;
+}
+
+.footer-list >ul > .list-item-active {
+    color: #fff;
+}
