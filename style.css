@@ -20,20 +20,22 @@ header {
 }
 
 .logo {
-    margin-left: 8rem;
+    margin-left: 2rem;
 }
 
 nav {
     color: #fff;
+    display: flex;
+    gap: 2rem;
+    padding-right: 1rem;
 }
 
-.nav-item {
-    margin-right: 2rem;
+.nav-items {
+    display: flex;
+    gap: 1rem;
 }
 
 .nav-item-btn {
-    margin-left: 5rem;
-    margin-right: 2rem;
     border: 1px solid rgba(255, 255, 255, 0.608);
     padding: 0.8rem 3rem;
 }
@@ -249,4 +251,27 @@ footer {
 
 .footer-list >ul > .list-item-active {
     color: #fff;
+}
+
+@media screen and (max-width:900px) {
+    
+    .nav-items {
+     display: none;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    
+   .nav-items {
+    display: none;
+   }
+
+    .nav-item-btn {
+        border: 1px solid rgba(255, 255, 255, 0.608);
+        padding: 0.8rem 3rem;
+    }
+
+    
+
 }
