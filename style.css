@@ -10,7 +10,7 @@ body {
 
 header {
     background-color: #636C79;
-    height: 650px;
+    padding-bottom: 1rem;
     padding-top: 2rem;
 }
 
@@ -55,8 +55,10 @@ nav {
 }
 
 .header-text {
-    width: 500px;
+    max-width: 500px;
     color: #fff;
+
+    
 }
 
 .header-text > h2 {
@@ -270,6 +272,14 @@ footer {
     .nav-item-btn {
         border: 1px solid rgba(255, 255, 255, 0.608);
         padding: 0.8rem 3rem;
+    }
+
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     
