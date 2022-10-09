@@ -13,4 +13,4 @@ https://businesslandingpage-saurabh.netlify.app/
 
 ## TIme Taken
 
-Project took around 9.5 hours	
+Project took around 7 hours	
